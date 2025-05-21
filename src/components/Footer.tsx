@@ -12,13 +12,13 @@ export const Footer: React.FC = () => {
             <p>
                 Higly inspired by {''}
                 <span className='highlight'>
-                    <a href="https://github.com/zomeru/zoms/">
+                    <a href="https://github.com/zomeru/zoms/" target='_blank' rel='noreferrer noopener'>
                         Zomer Gregorio
                     </a>
                 </span>
                 {' '} in his {' '}
                 <span className='highlight'>
-                    <a href="https://zoms.vercel.app/">
+                    <a href="https://zoms.vercel.app/" target='_blank' rel='noreferrer noopener'>
                         portfolio
                     </a>
                 </span>
