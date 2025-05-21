@@ -37,7 +37,7 @@ export const Experience: React.FC = () => {
                     )
                 })}
             </ol>
-            <a href="assets/cv.pdf" target='_blank' rel='noopener noreferrer' className='btn-primary link-primary '>
+            <a href="assets/Hizer_Rosgen_CV.pdf" target='_blank' rel='noopener noreferrer' className='btn-primary link-primary '>
                 View CV
             </a>
         </section>
