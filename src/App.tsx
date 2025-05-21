@@ -1,13 +1,19 @@
-import { useState } from 'react'
+import { MainInfo, Footer } from './components/';
+import { About, Technologies, Experience, Projects } from './components/Sections';
 
 function App() {
 
   return (
-    <>
-      <h1 className='text-3xl font bold underline text-red500'>
-        Hello World! React
-      </h1>
-    </>
+    <main className='max-w-[1300px] mx-auto h-auto lg:h-full relative px-6 sm:px-12 md:px-16 lg:px-20 py-[50px] md:py-[90px] font-poppins'>
+      <MainInfo />
+      <section className='w-full lg:w-1/2 ml-0 lg:ml-auto relative pb-20 sm:pb-0 text-secondary'>
+        <About />
+        <Technologies />
+        <Experience />
+        <Projects />
+        <Footer />
+      </section>
+    </main>
   )
 }
 
