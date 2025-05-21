@@ -4,25 +4,28 @@ import {
     AiFillLinkedin
 } from "react-icons/ai";
 
-import { FaHtml5, 
-    FaCss3Alt, 
-    FaJsSquare, 
-    FaReact, 
-    FaPhp, 
-    FaPython, 
-    FaNodeJs, 
-    FaLaravel, 
-    FaBootstrap, 
-    FaGitAlt, 
-    FaDocker } from "react-icons/fa";
+import {
+    FaHtml5,
+    FaCss3Alt,
+    FaJsSquare,
+    FaReact,
+    FaPhp,
+    FaPython,
+    FaNodeJs,
+    FaLaravel,
+    FaBootstrap,
+    FaGitAlt,
+    FaDocker
+} from "react-icons/fa";
 
-import { 
-    SiTypescript, 
-    SiJquery, 
-    SiExpress, 
-    SiMysql, 
-    SiMongodb, 
-    SiTailwindcss, } from "react-icons/si";
+import {
+    SiTypescript,
+    SiJquery,
+    SiExpress,
+    SiMysql,
+    SiMongodb,
+    SiTailwindcss,
+} from "react-icons/si";
 
 
 export const socials = [
@@ -37,6 +40,25 @@ export const socials = [
     {
         url: 'https://linkedin.com/in/rosgenhizer',
         Icon: AiFillLinkedin
+    }
+]
+
+export const navigation = [
+    {
+        name: 'About',
+        url: '/#about',
+    },
+    {
+        name: 'Technologies',
+        url: '/#technologies'
+    },
+    {
+        name: 'Experience',
+        url: '/#experience'
+    },
+    {
+        name: 'Projects',
+        url: '/#projects'
     }
 ]
 
@@ -62,6 +84,22 @@ export const technologies = [
         Icon: SiTypescript
     },
     {
+        name: 'Bootstrap',
+        Icon: FaBootstrap
+    },
+    {
+        name: 'Tailwind CSS',
+        Icon: SiTailwindcss
+    },
+    {
+        name: 'MongoDB',
+        Icon: SiMongodb
+    },
+    {
+        name: 'Express.js',
+        Icon: SiExpress
+    },
+    {
         name: 'React',
         Icon: FaReact
     },
@@ -70,12 +108,12 @@ export const technologies = [
         Icon: FaNodeJs
     },
     {
-        name: 'Express.js',
-        Icon: SiExpress
-    },
-    {
         name: 'PHP',
         Icon: FaPhp
+    },
+    {
+        name: 'Laravel',
+        Icon: FaLaravel
     },
     {
         name: 'Python',
@@ -84,22 +122,6 @@ export const technologies = [
     {
         name: 'MySQL',
         Icon: SiMysql
-    },
-    {
-        name: 'MongoDB',
-        Icon: SiMongodb
-    },
-    {
-        name: 'Laravel',
-        Icon: FaLaravel
-    },
-    {
-        name: 'Bootstrap',
-        Icon: FaBootstrap
-    },
-    {
-        name: 'Tailwind CSS',
-        Icon: SiTailwindcss
     },
     {
         name: 'Git',
