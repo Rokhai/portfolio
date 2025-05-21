@@ -1,1 +1,52 @@
-@import "tailwindcss"
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import "tailwindcss";
+
+
+@theme {
+    --color-primary: #150f1a;
+    --color-secondary: #f0f0f0;
+    --color-accent: #ff4dbe;
+    --color-accent-muted: #b954941f;
+    --color-bg-accent: rgba(249, 62, 47, 0.15);
+    --color-muted: #919191;
+    --font-poppins: 'Poppins', sans-serif, 'Helvetica Neue', 'Helvetica', 'Arial';
+}
+
+.highlight {
+    @apply text-secondary hover:text-accent transition-colors duration-300 ease-in-out font-medium
+}
+.section-title {
+    @apply text-accent font-medium text-xl mb-3
+}
+
+.btn-primary {
+
+    @apply text-secondary relative
+}
+
+.btn-primary::before {
+    @apply content-[''] absolute bottom-0 left-0 w-0 transition-all duration-150 ease-in border-b-2 border-accent
+}
+
+.btn-primary:hover::before {
+    @apply w-full
+}
+
+.btn-primary-active {
+    @apply relative
+}
+
+.btn-primary-active::before {
+    @apply content-[''] absolute bottom-0 left-0 w-full transition-all duration-150 ease-in border-b-2 border-accent
+}
+
+.link-primary {
+    @apply text-secondary
+    
+}
+.link-primary::after {
+    @apply content-['𐃘'] absolute ml-2 transition-all duration-200;
+}
+.link-primary:hover::after {
+    @apply transform translate-x-2;
+}
