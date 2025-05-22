@@ -33,17 +33,17 @@ export const projects = [
             award: '/assets/exthealth-award.pdf'
         }
     },
-    {
-        name: 'DHVSUM (School Project)',
-        image: '/assets/images/dhvsum.png',
-        alt: 'DHVSUM',
-        description: 'A marketplace website exclusive for Don Honorio Ventura State University Students, and they can buy/sell their pre-owned items, and/or sell their own craft',
-        technologies: ['HTML', 'CSS', 'JavaScript', 'Bootstrap', 'PHP', 'Laravel', 'MySQL', 'Apache'],
-        links: {
-            github: 'https://github.com/Rokhai/dhvsum-v02'
-        }
+    // {
+    //     name: 'DHVSUM (School Project)',
+    //     image: '/assets/images/dhvsum.png',
+    //     alt: 'DHVSUM',
+    //     description: 'A marketplace website exclusive for Don Honorio Ventura State University Students, and they can buy/sell their pre-owned items, and/or sell their own craft',
+    //     technologies: ['HTML', 'CSS', 'JavaScript', 'Bootstrap', 'PHP', 'Laravel', 'MySQL', 'Apache'],
+    //     links: {
+    //         github: 'https://github.com/Rokhai/dhvsum-v02'
+    //     }
 
-    },
+    // },
 
 
 ]

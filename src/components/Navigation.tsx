@@ -15,7 +15,8 @@ const Navigation: React.FC = () => {
                 const sectionTop = section.getBoundingClientRect().top;
                 const sectionBottom = section.getBoundingClientRect().bottom;
 
-                const height = section.id === 'technologies' ? 150 : 100;
+                // Remove the projects section from the height calculation if your projects are more than 4
+                const height = section.id === 'technologies' || section.id === 'projects' ? 150 : 100;
 
                 if (sectionTop <= height && sectionBottom >= height) {
                     const hasThisSection = navigation.find((nav) => {
