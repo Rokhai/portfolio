@@ -1,5 +1,5 @@
 import { MainInfo, Footer } from './components/';
-import { About, Technologies, Experience, Projects } from './components/Sections';
+import { About, Technologies, Experience, Projects, Vivi} from './components/Sections';
 
 function App() {
 
@@ -12,6 +12,7 @@ function App() {
         <Experience />
         <Projects />
         <Footer />
+        <Vivi />
       </section>
     </main>
   )
