@@ -9,7 +9,7 @@ export const Footer: React.FC = () => {
                 <span className='highlight'>Tailwind CSS</span>, deployed with{' '}
                 <span className='highlight'>Vercel</span>.
             </p>
-            <p>
+            {/* <p>
                 Higly inspired by {''}
                 <span className='highlight'>
                     <a href="https://github.com/zomeru/zoms/" target='_blank' rel='noreferrer noopener'>
@@ -22,7 +22,7 @@ export const Footer: React.FC = () => {
                         portfolio
                     </a>
                 </span>
-            </p>
+            </p> */}
             <p>
                 &copy; 2025{' '}
                 <a className='btn-primary' href='https://github.com/Rokhai' target='_blank' rel='noreferrer noopener'>

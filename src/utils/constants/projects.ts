@@ -1,24 +1,24 @@
 export const projects = [
     {
+        name: 'Unifty Marketplace',
+        image: '/assets/images/under-construction.png',
+        alt: 'Unifty Marketplace',
+        description: 'A marketplace for digital assets, allowing users to buy, sell, and trade',
+        technologies: ['HTML', 'CSS', 'JavaScript', 'Tailwind', 'React', 'Laravel', 'MySQL'],
+        links: {
+            demo: '',
+            github: 'https://github.com/Rokhai/Unifty-Marketplace'
+        }
+    },
+    {
         name: 'Recipe Book (MERN)',
-        image: '/assets/images/recipe-book-mern.png',
+        image: '/assets/images/recipe-book.png',
         alt: 'Recipe Book MERN',
         description: 'Web based recipe manager to digitally store, organize, and view recipes',
         technologies: ['HTML', 'CSS', 'JavaScript', 'Tailwind', 'React', 'Node.js', 'Express.js', 'MongoDB',],
         links: {
             demo: 'https://frontend-alpha-one-28.vercel.app/',
             github: 'https://github.com/Rokhai/RecipeBook-Frontend-React'
-        }
-    },
-    {
-        name: 'Todo List',
-        image: '/assets/images/todo-list.png',
-        alt: 'Todo List',
-        description: "A simple todo list that allows you to manage tasks, add, edit, and delete them.",
-        technologies: ['HTML', 'CSS', 'JavaScript', 'LocalStorage'],
-        links: {
-            demo: 'https://todo-list-devel.onrender.com/',
-            github: 'https://github.com/Rokhai/Todo-List'
         }
     },
     {
@@ -31,6 +31,17 @@ export const projects = [
             // demo: '',
             github: 'https://github.com/bruce-agaloos/eXtHealth',
             award: '/assets/exthealth-award.pdf'
+        }
+    },
+    {
+        name: 'Todo List',
+        image: '/assets/images/todo-list.png',
+        alt: 'Todo List',
+        description: "A simple todo list that allows you to manage tasks, add, edit, and delete them.",
+        technologies: ['HTML', 'CSS', 'JavaScript', 'LocalStorage'],
+        links: {
+            demo: 'https://todo-list-devel.onrender.com/',
+            github: 'https://github.com/Rokhai/Todo-List'
         }
     },
     // {
