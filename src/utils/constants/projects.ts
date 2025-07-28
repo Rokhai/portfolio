@@ -3,7 +3,7 @@ export const projects = [
         name: 'Unifty Marketplace',
         image: '/assets/images/under-construction.png',
         alt: 'Unifty Marketplace',
-        description: 'A marketplace for digital assets, allowing users to buy, sell, and trade',
+        description: 'A e-commerce type of website, allowing users to buy, sell, and trade',
         technologies: ['HTML', 'CSS', 'JavaScript', 'Tailwind', 'React', 'Laravel', 'MySQL'],
         links: {
             demo: '',
